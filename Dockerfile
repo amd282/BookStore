@@ -25,4 +25,5 @@ COPY --from=build-env /app/out .
 EXPOSE 80
 
 # Define the command to run the application
+ENV ConnectionStrings__BookStoreContext="Server=(localdb)\\mssqllocaldb;Database=BookStore.Data;Trusted_Connection=True;MultipleActiveResultSets=true"
 ENTRYPOINT ["dotnet", "BookStore.dll"]
