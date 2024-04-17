@@ -1,5 +1,9 @@
 pipeline {
     agent any
+     triggers {
+            // Define the trigger for pushing changes to the repository
+            gitPush()
+        }
     stages {
         stage('Build') {
             steps {
