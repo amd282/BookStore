@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the Maven project...'
-                bat 'mvn clean install'
+                // Use MSBuild to build the .NET project
+                bat 'MSBuild BookStore.sln /p:Configuration=Release /p:Platform="Any CPU"'
             }
         }
         stage('Build Docker Image') {
