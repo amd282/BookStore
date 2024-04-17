@@ -21,5 +21,8 @@ WORKDIR /app
 # Copy the build output from the build environment
 COPY --from=build-env /app/out .
 
+# Expose port 80
+EXPOSE 80
+
 # Define the command to run the application
 ENTRYPOINT ["dotnet", "BookStore.dll"]
