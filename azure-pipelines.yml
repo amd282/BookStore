@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: 'Dell-Windows'
+  name: 'Desktop'
 
 variables:
   solution: '**/*.sln'
