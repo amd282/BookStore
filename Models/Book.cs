@@ -1,16 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace BookStore.Models
 {
     public class Book
     {
-        public int Id { get; set; }
-        public string? Title { get; set; }
-        public string? Author { get; set; }
-        public string? Genre { get; set; }
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
 
-        [Column(TypeName = "decimal(18, 2)")]
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public string Genre { get; set; }
+
+        [BsonRepresentation(BsonType.Decimal128)]
         public decimal Price { get; set; }
     }
 }

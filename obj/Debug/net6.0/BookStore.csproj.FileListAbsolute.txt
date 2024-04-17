@@ -248,3 +248,16 @@ C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\runtimes\win\lib\net6
 C:\Users\arafa\Documents\GitHub\BookStore\obj\Debug\net6.0\BookStore.csproj.AssemblyReference.cache
 C:\Users\arafa\Documents\GitHub\BookStore\obj\Debug\net6.0\BookStore.sourcelink.json
 C:\Users\arafa\Documents\GitHub\BookStore\obj\Debug\net6.0\BookStore.csproj.CopyComplete
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\DnsClient.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\Snappier.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\arafa\Documents\GitHub\BookStore\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
