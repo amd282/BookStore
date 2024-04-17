@@ -25,5 +25,5 @@ COPY --from=build-env /app/out .
 EXPOSE 80
 
 # Define the command to run the application
-ENV ConnectionStrings__BookStoreContext="Server=(localdb)\\mssqllocaldb;Database=BookStore.Data;Trusted_Connection=True;MultipleActiveResultSets=true"
+ENV ConnectionStrings__BookStoreContext="mongodb+srv://arafa282:Asmara2024@cluster0.yjdkcv7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 ENTRYPOINT ["dotnet", "BookStore.dll"]
